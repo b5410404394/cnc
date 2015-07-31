@@ -11,10 +11,10 @@
 			<div class="nav-wrapper">
 				<a href="#" class="left brand-logo">CNC</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="#">Show Case</a></li>
+					<li><a href="showcase">Show Case</a></li>
 					<li><a href="#">News</a></li>
 					<li><a href="#">Activity</a></li>
-					<li><a href="#">Member</a></li>
+					<li><a href="member">Member</a></li>
 					<li><a href="#">Recruit</a></li>
 				</ul>
 			</div>
