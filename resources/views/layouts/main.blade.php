@@ -10,14 +10,10 @@
 		<div class="container">
 			<div class="nav-wrapper navigator">
 				<a href="#" class="left brand-logo">Logo</a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#">Showcase</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Activity</a></li>
-					<li><a href="#">Member</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Recruit</a></li>
-				</ul>
+<ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons left">search</i>Link with Left Icon</a></li>
+        <li><a href="badges.html"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+      </ul>
 			</div>
 		</div>
 	</nav>
