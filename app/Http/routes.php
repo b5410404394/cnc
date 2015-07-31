@@ -12,3 +12,4 @@
 */
 
 Route::resource('home', 'HomeController');
+Route::resource('member', 'MemberController');
