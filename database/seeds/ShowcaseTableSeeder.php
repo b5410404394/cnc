@@ -11,17 +11,18 @@ class ShowcaseTableSeeder extends Seeder
      */
     public function run()
     {
-    	// DB::table('showcases')->delete();
+    	DB::table('showcases')->delete();
     	for($i = 1 ; $i <= 20 ; $i++){
     		$s = "";
-    		for($j = 0 ; $j < 10 ; $j++){
+    		for($j = 0 ; $j < 5 ; $j++){
     			$s = $s.str_random(20).' ';
     		}
     		
 	         DB::table('showcases')->insert([
-	            'title' => $i.'  '.str_random(10),
+	            'title' => 'Title '.$i,
 	            'desc' => $s,
-	            'link' => 'www.'.str_random(20).'.com'
+	            'picture' => 'images/hackers.jpg',
+	            'link' => 'http://cs.sci.ku.ac.th'
 	        ]);
      	}
     }

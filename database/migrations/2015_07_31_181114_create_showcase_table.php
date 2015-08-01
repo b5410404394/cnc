@@ -16,6 +16,7 @@ class CreateShowcaseTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('desc');
+            $table->string('picture');
             $table->string('link');
             $table->timestamps();
         });

@@ -17,7 +17,7 @@
               <p>{{ $showcase->desc }}</p>
             </div>
             <div class="card-action">
-              <a href="showcase/{{ $showcase->title }}">This is a link</a>
+              <a href="showcase/{{ $showcase->id }}">More</a>
             </div>
           </div>
         </div>
