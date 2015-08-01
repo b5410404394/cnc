@@ -49,8 +49,7 @@ class MemberController extends Controller
      */
     public function show($id)
     {
-        //
-        return view('members.show');
+        return view('members.show',  ['id' => $id]);
     }
 
     /**

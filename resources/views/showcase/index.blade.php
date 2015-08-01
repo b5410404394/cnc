@@ -5,16 +5,18 @@
 
   <div class="container section">
 	      <div class="row card-panel cyan lighten-5">
-          <h4>Show Case</h4>
+          <div class='card-panel'>
+          <h4 class="center">Show Case</h4>
+        </div>
       @foreach ($showcases as $showcase)
         <div class="col s4 m4 l6">
           <div class="card medium">
             <div class="card-image">
-              <img src="{{ URL::to('images/hackers.jpg') }}">
+              <img src="{{ URL::to($showcase->picture) }}">
               <span class="card-title cyan">{{ $showcase->title }}</span>
             </div>
             <div class="card-content">
-              <p>{{ $showcase->desc }}</p>
+              <p>{{ str_limit($showcase->desc, 160) }}</p>
             </div>
             <div class="card-action">
               <a href="showcase/{{ $showcase->id }}">More</a>

@@ -50,8 +50,8 @@ class ShowcaseController extends Controller
      */
     public function show($id)
     {
-        $showcases = Showcase::find($id);
-        return view('showcase.show', ['showcases' => $showcases]);
+        $showcase = Showcase::find($id);
+        return view('showcase.show', ['showcase' => $showcase]);
     }
 
     /**
