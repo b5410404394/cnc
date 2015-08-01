@@ -6,9 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\ShowCase;
 
-class ShowcaseController extends Controller
+class MemberController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,9 +16,8 @@ class ShowcaseController extends Controller
      */
     public function index()
     {
-        $showcases =  ShowCase::all();
-        dd($showcases);
-        return view('showcase.index',  ['showcases' => $showcases]);
+        //
+        return view('members.index');
     }
 
     /**
@@ -51,8 +49,7 @@ class ShowcaseController extends Controller
      */
     public function show($id)
     {
-
-        return view('showcase.show', ['id' => $id]);
+        //
     }
 
     /**

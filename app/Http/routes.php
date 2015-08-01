@@ -13,3 +13,4 @@
 
 Route::resource('home', 'HomeController');
 Route::resource('showcase', 'ShowCaseController');
+Route::resource('member', 'MemberController');
