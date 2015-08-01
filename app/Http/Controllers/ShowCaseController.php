@@ -18,7 +18,6 @@ class ShowcaseController extends Controller
     public function index()
     {
         $showcases =  ShowCase::all();
-        dd($showcases);
         return view('showcase.index',  ['showcases' => $showcases]);
     }
 
