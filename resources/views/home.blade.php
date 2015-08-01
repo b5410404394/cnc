@@ -5,9 +5,9 @@
 	<div class="section no-pad-bot">
 		<div class="container">
 			<br><br>
-			<h1 class="header center light-blue-text text-lighter-2">Communication Network And Cloud Research<br>Laboratory</h1>
+			<h1 class="header center light-blue-text text-lighter-4">Communication Network And Cloud Research<br>Laboratory</h1>
 			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+				<h5 class="header col s12 light">Some Random String Generate By Me To Make It More Beautiful</h5>
 			</div>
 			<div class="row center">
 				<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -58,7 +58,7 @@
 	<div class="section no-pad-bot">
 		<div class="container">
 			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+				<h5 class="header center col s12 light">A modern responsive front-end framework based on Material Design</h5>
 			</div>
 		</div>
 	</div>
@@ -81,10 +81,10 @@
 	<div class="section no-pad-bot">
 		<div class="container">
 			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+				<h5 class="header center col s12 light">A modern responsive front-end framework based on Material Design</h5>
 			</div>
 		</div>
 	</div>
-	<div class="parallax"><img src="{{ URL::to('/images/1.jpg') }}" alt="Unsplashed background img 3" style="display: block; transform: translate3d(-50%, 19px, 0px);"></div>
+	<div class="parallax"><img src="{{ URL::to('/images/2.jpg') }}" alt="Unsplashed background img 3" style="display: block; transform: translate3d(-50%, 19px, 0px);"></div>
 </div>
 @endsection
