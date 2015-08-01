@@ -1,0 +1,9 @@
+.slider > .slides > li > img {
+	background-position: inherit;
+}
+
+.slider > .slides > li > .caption {
+	top: 10%;
+	width: 50%;
+	left: 0;
+}

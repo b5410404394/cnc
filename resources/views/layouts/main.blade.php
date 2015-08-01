@@ -4,17 +4,18 @@
 	<title>CNC Laboratory</title>
 	<link href="{{ URL::to('materialize/css/materialize.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="{{ URL::to('materialize/css/home.css ') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<nav class=" light-blue lighten-2">
 		<div class="container">
 			<div class="nav-wrapper">
-				<a href="#" class="left brand-logo">CNC</a>
+				<a href="/home" class="left brand-logo">CNC</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="#">Show Case</a></li>
+					<li><a href="showcase">Show Case</a></li>
 					<li><a href="#">News</a></li>
 					<li><a href="#">Activity</a></li>
-					<li><a href="#">Member</a></li>
+					<li><a href="member">Member</a></li>
 					<li><a href="#">Recruit</a></li>
 				</ul>
 			</div>
@@ -30,8 +31,6 @@
 				<div class="col l6 s12">
 					<h5 class="white-text">About Us</h5>
 					<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
 				</div>
 				<div class="col l3 s12 right">
 					<h5 class="white-text">Connect</h5>
@@ -59,13 +58,13 @@
 	<script type="text/javascript">
 	(function($){
 		$(function(){
-
 			$('.button-collapse').sideNav();
 			$('.parallax').parallax();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
-</script>
+			$('.slider').slider({full_width: true});
+			$('.slider').slider('start');
+  		}); // end of document ready
+	})(jQuery); // end of jQuery name space
+	</script>
 </body>
 <footer>
 </footer>

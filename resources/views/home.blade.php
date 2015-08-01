@@ -5,9 +5,9 @@
 	<div class="section no-pad-bot">
 		<div class="container">
 			<br><br>
-			<h1 class="header center light-blue-text text-lighter-2">Communication Network And Cloud Research<br>Laboratory</h1>
+			<h1 class="header center light-blue-text text-lighter-4">Communication Network And Cloud Research<br>Laboratory</h1>
 			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+				<h5 class="header col s12 light">Some Random String Generate By Me To Make It More Beautiful</h5>
 			</div>
 			<div class="row center">
 				<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -55,15 +55,41 @@
 </div>
 
 <div class="parallax-container valign-wrapper">
-	<div class="section no-pad-bot">
-		<div class="container">
-			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-			</div>
-		</div>
+	<div class="slider">
+		<ul class="slides">
+			<li>
+				<img src="{{ URL::to('/images/cnc2.jpg') }}"> <!-- random image -->
+				<div class="caption center-align light-blue darken-1 z-depth-2">
+					<h3>Congratulations!</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="{{ URL::to('/images/cnc3.jpg') }}"> <!-- random image -->
+				<div class="caption center-align light-blue darken-1 z-depth-2">
+					<h3>CS 25 Bye Nior</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="{{ URL::to('/images/cnc4.jpg') }}"> <!-- random image -->
+				<div class="caption center-align light-blue darken-1 z-depth-2">
+					<h3>Happy Meal</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+			<li>
+				<img src="{{ URL::to('/images/cnc1.jpg') }}"> <!-- random image -->
+				<div class="caption center-align light-blue darken-1 z-depth-2">
+					<h3>DevCamp is Coming</h3>
+					<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				</div>
+			</li>
+		</ul>
 	</div>
 	<div class="parallax"><img src="{{ URL::to('/images/1.jpg') }}" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 193px, 0px);"></div>
 </div>
+
 <div class="container">
 	<div class="section">
 
@@ -81,10 +107,11 @@
 	<div class="section no-pad-bot">
 		<div class="container">
 			<div class="row center">
-				<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+				<h5 class="header center col s12 light">A modern responsive front-end framework based on Material Design</h5>
 			</div>
 		</div>
 	</div>
-	<div class="parallax"><img src="{{ URL::to('/images/1.jpg') }}" alt="Unsplashed background img 3" style="display: block; transform: translate3d(-50%, 19px, 0px);"></div>
+	<div class="parallax"><img src="{{ URL::to('/images/2.jpg') }}" alt="Unsplashed background img 3" style="display: block; transform: translate3d(-50%, 19px, 0px);"></div>
 </div>
+
 @endsection
